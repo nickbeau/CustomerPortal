@@ -613,7 +613,7 @@ pagedata = [ ["./add-crmactivitytocrmrecord.html","Add-CrmActivityToCrmRecord","
 ["./recycle-splist.html","Recycle-SPList","Recycle-SPList Navigation: No topics above this level Recycle-SPList Enter topic text here. ",""],
 ["./recycle-splistitem.html","Recycle-SPListItem","Recycle-SPListItem Navigation: No topics above this level Recycle-SPListItem Enter topic text here. ",""],
 ["./recycle-sptask.html","Recycle-SPTask","Recycle-SPTask Navigation: No topics above this level Recycle-SPTask Enter topic text here. ",""],
-["./release-notes.html","Introduction &#62; Release Notes","Release Notes Navigation: Introduction Release Notes This is version 4.0.841. The following are known issues with this version. ",""],
+["./release-notes.html","Introduction &#62; Release Notes","Release Notes Navigation: Introduction Release Notes This is version 4.0.841. The following are known issues with this version. #2706 - OnePractic...",""],
 ["./remove-crmentitymetadatacache.html","Remove-CrmEntityMetadataCache","Remove-CrmEntityMetadataCache Navigation: No topics above this level Remove-CrmEntityMetadataCache Enter topic text here. ",""],
 ["./remove-crmrecord.html","Remove-CrmRecord","Remove-CrmRecord Navigation: No topics above this level Remove-CrmRecord Enter topic text here. ",""],
 ["./remove-crmrecordassociation.html","Remove-CrmRecordAssociation","Remove-CrmRecordAssociation Navigation: No topics above this level Remove-CrmRecordAssociation Enter topic text here. ",""],
