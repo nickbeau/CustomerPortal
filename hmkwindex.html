@@ -81,6 +81,18 @@
    </style>       
    <script type="text/javascript" src="jquery.js"></script>
    <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){
+     var parentScope = (parent.hmNavigationFrame);
+     if (parentScope) parent.currentNav("index");
+	$("a[target='hmcontent']").on("click",function(event){
+		$("p.hilite").removeClass("hilite");
+		$(this).parent("p").addClass("hilite");
+		if (parentScope)
+			window.parent.showNav("toggle");
+		});
+        });
+   </script>
    <script type="text/javascript" src="hmcontextids.js"></script>
 </head>
 <body>
@@ -89,12 +101,47 @@
 <div id="keyword_entry_div"><p>Enter value</p><input type="text" id="keyword_entry" onkeyup="keywordEntryKey()" /></div>
 <div id="keyword_list_div">
   <select id="keyword_list" size="2">
+  <option value="welcome.html">advisory services</option>
+  <option value="expporting-and-importing-setti.html">broom button</option>
+  <option value="introduction.html">compilation</option>
+  <option value="release-notes2.html">Data leakage prevention</option>
+  <option value="release-notes2.html">Digital rights management</option>
+  <option value="release-notes2.html">Document Meta data</option>
+  <option value="for-customers.html">Documentation Portal</option>
+  <option value="using-the-file-name-builder-to.html">File Name Builder</option>
+  <option value="file-rename-options-tab.html">Find Word in Scan”</option>
+  <option value="links.html">How do I sign up for a Microsoft account?</option>
+  <option value="">HubOne</option>
+  <option value="introduction.html">&nbsp;&nbsp;&nbsp;OnePractice</option>
+  <option value="set-wfmkey.html">Key for the session</option>
+  <option value="release-notes.html">known issues</option>
+  <option value="links.html">Manage external sharing</option>
+  <option value="advanced-match-options-tab.html">Match Client Name Letter Count</option>
+  <option value="welcome.html">members</option>
+  <option value="workflowmax-tab.html">New Zealand</option>
+  <option value="slide-3---office-365.html">Office 365</option>
+  <option value="'Introduction','introduction.html','Welcome','welcome.html','OnePractice','onepractice.html'">OnePractice</option>
+  <option value="onepractice.html">OnePractice Architecture</option>
+  <option value="slide-5---our-objectives.html">Our Objectives</option>
+  <option value="links.html">people outside your organization</option>
   <option value="">PowerShell Modules</option>
   <option value="powershell-api.html">&nbsp;&nbsp;&nbsp;CRM Module</option>
   <option value="powershell-api.html">&nbsp;&nbsp;&nbsp;SharePoint Module</option>
   <option value="powershell-api.html">&nbsp;&nbsp;&nbsp;WorkflowMax Module</option>
+  <option value="onepractice.html">practices</option>
+  <option value="release-notes2.html">Retention policies</option>
+  <option value="workflowmax-tab.html">Save Button</option>
   <option value="scanned-document-manager.html">Scanned Document Manager</option>
+  <option value="set-wfmdefaultregion.html">Set-WFMDefaultRegion</option>
+  <option value="links.html">Share sites</option>
   <option value="scanned-document-manager.html">SharePoint</option>
+  <option value="links.html">Sharing Guide</option>
+  <option value="onepractice.html">technology in an accounting practice</option>
+  <option value="release-notes2.html">Unlimited archiving</option>
+  <option value="release-notes2.html">Version control</option>
+  <option value="introduction.html">Welcome</option>
+  <option value="slide-2---why-do-it_.html">Why Do it?</option>
+  <option value="slide-4---why-office-365.html">Why Office 365</option>
 </select>
 
   <select id="keyword_list_dummy" size="5" style="display:none"></select>
